@@ -4,7 +4,8 @@
 
 A simple 1.21.6+ spigot & paper plugin to make items invisible to all but those holding them.
 Useful for lobby items, minigames, trolling, or really any time when you need to keep an item hidden. 
-
+## Downloads
+[Modrinth](https://modrinth.com/project/X6FQ6OdU) | [Hangar](https://hangar.papermc.io/Lumen_Fire/Invis-Items) | [SpigotMC](https://www.spigotmc.org/resources/invis-items.138725/)
 ## Features
 - Items are securely hidden from players by using packet level interception – clients can't possibly know about items they were never told of.
 - Supports applying and removing invisibility to and from items, as well as giving invisible items and replacing slots with invisible items.
