@@ -1,0 +1,11 @@
+messages:
+  reload: "Reloaded InvisItems"
+  version: "Running InvisItems version %version%"
+  receive-item: "You have been given %amount%x invisible %item%"
+  give-player-item: "Gave %amount%x invisible %item% to %player%"
+  apply-to-item: "Applied invisibility to %item%"
+  apply-to-entities: "Applied invisibility to slot %slot% for %amount% entity(s)"
+  remove-from-item: "Removed invisibility from %item%"
+  remove-from-entities: "Removed invisibility from slot %slot% for %amount% entity(s)"
+  set-slot-to-item: "Set slot %slot% to invisible %item%"
+  set-entity-slot-to-item: "Set slot %slot% to invisible %item% for %amount% entity(s)"

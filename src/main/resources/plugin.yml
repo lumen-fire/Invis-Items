@@ -1,0 +1,44 @@
+name: Invis-Items
+version: '1.0.0'
+main: me.lumen.invisItems.InvisItems
+api-version: '1.21.6'
+commands:
+  invisitems:
+    description: Give and apply items with invisibility
+    permission: invisitems.command
+permissions:
+  invisitems.command:
+    default: op
+    description: The root permission for /invisitems
+  invisitems.give:
+    description: Give an item with invisibility to players
+    default: op
+    children:
+      - invisitems.command
+  invisitems.apply:
+    description: Apply invisibility to the item in your hand
+    default: op
+    children:
+      - invisitems.command
+  invisitems.reload:
+    description: Reload config.yml
+    default: op
+    children:
+      - invisitems.command
+  invisitems.version:
+    description: Send the plugin version in chat
+    default: op
+    children:
+      - invisitems.command
+  invisitems.remove:
+    description: Remove invisibility from an item
+    default: op
+    children:
+      - invisitems.command
+  invisitems.replace:
+    description: Replace an equipment slot with an item with invisibility
+    default: op
+    children:
+      - invisitems.command
+depend:
+  - packetevents
