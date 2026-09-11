@@ -12,7 +12,7 @@ Useful for lobby items, minigames, trolling, or really any time when you need to
 - Supports applying and removing invisibility to and from items, as well as giving invisible items and replacing slots with invisible items.
 - Permissions down to each subcommand node and customisable messages in config.yml.
 - Brigadier (minecraft's native command system) support on papermc (and papermc forks) for command colouration, /execute as support, argument tooltips, and more of brigadier's advantages. 
-- Supports selectors like @p, @r, etc, in commands and offers full tab complete
+- Supports selectors like @p, @r, etc, in commands and offers full tab complete.
 - Should support Purpur and most other forks of paper.
 
 ## Command and Permissions
