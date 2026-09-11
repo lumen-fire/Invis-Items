@@ -1,6 +1,4 @@
 # Invis Items
-### **[WIP]** 
-
 **_Requires [PacketEvents](https://modrinth.com/project/HYKaKraK)_**  
 **_Supports 1.21.6+ spigot, paper, and (most) paper forks_**
 
