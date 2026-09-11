@@ -7,11 +7,13 @@
 A simple 1.21.6+ spigot & paper plugin to make items invisible to all but those holding them.
 Useful for lobby items, minigames, trolling, or really any time when you need to keep an item hidden. 
 
-Comes with brigadier (minecraft's native command system) support on papermc (and papermc forks) for command colouration, /execute as support, argument tooltips, and more of brigadier's advantages. 
-It still supports selectors like @p, @r, etc, in commands and full tab complete on spigot as well as paper. Should support Purpur and most other forks of paper.
-Supports applying and removing invisibility to and from items, as well as giving invisible items and replacing slots with invisible items. 
-The items are securely hidden from players by using packet level interception – clients can't possibly know about items they were never told of. 
-Offers permissions down to each subcommand node and customisable messages in config.yml.
+## Features
+- Items are securely hidden from players by using packet level interception – clients can't possibly know about items they were never told of.
+- Supports applying and removing invisibility to and from items, as well as giving invisible items and replacing slots with invisible items.
+- Permissions down to each subcommand node and customisable messages in config.yml.
+- Brigadier (minecraft's native command system) support on papermc (and papermc forks) for command colouration, /execute as support, argument tooltips, and more of brigadier's advantages. 
+- Supports selectors like @p, @r, etc, in commands and offers full tab complete
+- Should support Purpur and most other forks of paper.
 
 ## Command and Permissions
 
